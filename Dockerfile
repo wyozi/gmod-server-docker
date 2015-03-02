@@ -52,5 +52,7 @@ ENV MAXPLAYERS="16"
 ENV G_HOSTNAME="Garry's Mod"
 ENV GAMEMODE="sandbox"
 ENV MAP="gm_construct"
+ENV WS_COLLECTION=""
+ENV WS_AUTHKEY=""
 
 CMD ["/bin/sh", "/start-server.sh"]
